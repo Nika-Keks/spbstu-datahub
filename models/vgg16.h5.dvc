@@ -1,0 +1,4 @@
+outs:
+- md5: 76900059543f704e7ab542e80c0ca1fb
+  size: 430189880
+  path: vgg16.h5
