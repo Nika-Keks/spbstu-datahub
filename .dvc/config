@@ -1,0 +1,5 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = s3://202207dvc/projects/datahub
+    endpointurl = https://storage.yandexcloud.net
