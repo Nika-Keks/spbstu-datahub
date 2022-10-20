@@ -1,7 +1,7 @@
 # PNEUMONIA
 
 ## Структура датасета
-```
+
 data
 +-- train
     +-- NORMAL
@@ -12,4 +12,3 @@ data
 +-- val
     +-- NORMAL
     +-- PNEUMONIA
-```
