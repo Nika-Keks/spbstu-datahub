@@ -40,7 +40,8 @@
 ---
 Добавление данных
 ```console
-$ git checkout -b ${my_dataset} # создаем ветку датасета
+$ git checkout base             # переходим в ветку base
+$ git checkout -b ${my_dataset} # создаем ветку датасета (от base!)
 $ dvc abb data                  # добавление данных
 $ git add data.dvc .gitignore   # .gitignore, чтобы данные не попали в репозиторий
 $ git commit -m "added data"    # 
@@ -48,6 +49,7 @@ $ dvc push data.dvc             # отправляем данные в хран�
 ```
 Аналогично для моделей
 ```console
+$ git checkout base 
 $ git checkout ${my_dataset}
 $ dvc add models/${model_name}
 $ git add models/${model_name} models/.gitignore
